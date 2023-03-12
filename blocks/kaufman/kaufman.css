@@ -1,0 +1,23 @@
+  .kaufman {
+    background-color: black;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  
+    position: relative;
+    overflow: hidden; /* защита от переполнения при повороте анимации*/
+  }
+  
+  .kaufman__triangle {
+    position: absolute;
+    right: -210px;
+    width: 877px;
+    height: 877px;
+    z-index: 0;
+  }
+  
+  .kaufman__triangle-rotation {
+    animation: rotation infinite normal linear 20s;;
+  }
+  
