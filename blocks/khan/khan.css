@@ -1,13 +1,16 @@
   .khan {
     background-color: #f2f2f2;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    padding-top: 100px;
   }
   
   .khan__container {
     width: 80%;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -48,6 +51,7 @@
   }
   
   .khan__book-container {
+    display: flex;
     padding-top: 68px;
     height: 608px;
   }

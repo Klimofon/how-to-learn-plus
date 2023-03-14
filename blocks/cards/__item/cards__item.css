@@ -1,12 +1,13 @@
-.feynman {
-    width: 100%;
-    height: 890px;
+.cards__item {
+    width: 240px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    position: relative;
-    background-color: #f2f2f2;
   }
-  
+
+  .cards__item_in-center {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
