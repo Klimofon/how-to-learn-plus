@@ -7,12 +7,12 @@
     flex-wrap: nowrap;
   }
   
-  .video__section_title {
-    margin-top: 100px;
+  .video__section-title {
+    padding-top: 100px;
   }
   
-  .video__section_subtitle {
-    margin-top: 20px;
+  .video__section-subtitle {
+    padding-top: 20px;
   }
   
   .video__iframes {
