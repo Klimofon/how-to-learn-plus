@@ -8,6 +8,5 @@
     z-index: 2;
     flex-direction: row;
     align-items: baseline;
-    display: inline;
     line-height: 25px;
   }

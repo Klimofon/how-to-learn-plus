@@ -54,11 +54,14 @@
     display: flex;
     padding-top: 68px;
     height: 608px;
+    overflow: hidden;
   }
   
   .khan__book-pic {
     width: 620px;
-    overflow: hidden;
+    /*height: 887px; /*не нашел другого способа, кроме пропорционального пересчета высоты картинки, т.к. нельзя использовать абсолютное позиционирование, а браузер сжимает высоту*/
+    object-fit: cover;
+    object-position: top;
   }
   
   .khan__buy-link {

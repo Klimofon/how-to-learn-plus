@@ -1,5 +1,5 @@
   .kaufman {
-    background-color: black;
+    background-color: #1f1f1f;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,12 +15,18 @@
   .kaufman__triangle {
     position: absolute;
     right: -210px;
+    top: 0px;
     width: 877px;
     height: 877px;
     z-index: 0;
+    
+    background-image: url(../../images/kaufman-triangle.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
   
   .kaufman__triangle-rotation {
-    animation: rotation infinite normal linear 20s;;
+    animation: rotation infinite normal linear 20s;
   }
   
