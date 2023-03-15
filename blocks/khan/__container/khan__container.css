@@ -1,9 +1,9 @@
-  .resuorces {
-    width: 100%;
+.khan__container {
+    width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    padding-top: 100px;
-  } 
+    
+  }

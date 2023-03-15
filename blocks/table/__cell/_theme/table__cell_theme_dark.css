@@ -1,0 +1,9 @@
+.table__cell_theme_dark {
+    width: 200px;
+    padding-top: 80px;
+    /*height: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: nowrap;*/
+  }
