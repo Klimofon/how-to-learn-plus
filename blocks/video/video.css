@@ -5,29 +5,4 @@
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
-  }
-  
-  .video__section-title {
-    padding-top: 100px;
-  }
-  
-  .video__section-subtitle {
-    padding-top: 20px;
-  }
-  
-  .video__iframes {
-    width: 1050px;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    position: relative;
-    top: 50px;
-  }
-  
-  .video__iframe {
-    width: 515px;
-    height: 316px;
-    border: 0px;
-  }
+  } 

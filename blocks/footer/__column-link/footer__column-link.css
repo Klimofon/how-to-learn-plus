@@ -2,8 +2,11 @@
     color: white;
     text-decoration: none;
     display: block;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     line-height: 18px;
     font-size: 18px;
     font-weight: normal;
   }
+.footer__column-link:last-child {
+    padding-bottom: 0;
+}
